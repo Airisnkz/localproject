@@ -1,0 +1,19 @@
+num     name     writer     publish     time      price
+
+string inFileName = "book.txt";
+    ifstream infile;
+    infile.open(inFileName.c_str());
+    string text;
+    for (int i=0; i <= 599;i++)
+    {
+        getline(infile, text, ',');
+        cout << text<<endl;
+    }
+
+
+    cout << text;
+                for (int j = 1; j <= 5;j++)
+                {
+                    getline(infile, text, ',');
+                    cout<< text;
+                }
