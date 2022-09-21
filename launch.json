@@ -12,10 +12,10 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "C++",
+            "name": "C++/opencv",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "program": "D:/cpp/.vscode/c++/exe/${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

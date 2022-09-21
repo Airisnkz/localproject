@@ -3,8 +3,13 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
-
+                "${workspaceFolder}/**",
+                "D:/opencv452/install/include",
+                "D:/opencv452/install/include/opencv2",
+                "C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                "C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+                "C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
+                "C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/32"
             ],
             "defines": [
                 "_DEBUG",

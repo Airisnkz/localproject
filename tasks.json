@@ -10,7 +10,13 @@
                 "-fexec-charset=GBK", 
                 "-finput-charset=UTF-8",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "D:/cpp/.vscode/c++/exe/${fileBasenameNoExtension}.exe",
+                "D:/opencv452/install/x64/mingw/bin/libopencv_world452.dll",
+                "-I", "D:/opencv452/install/include",
+                "-I", "D:/opencv452/install/include/opencv2",
+                "-I", "D:/opencv452/install/x64/mingw/lib",
+                "-L", "C:/MinGW/lib",
+                "-L", "D:/opencv452/install/x64/mingw/bin"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -21,6 +27,9 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
+            },
+            "presentation": { 
+            "panel": "new" //默认为“shared“表示共享，改成new之后每个进程创建新的端口
             },
             "detail": "调试器生成的任务。"
         }
